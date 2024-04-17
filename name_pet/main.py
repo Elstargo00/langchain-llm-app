@@ -1,11 +1,11 @@
-import langchain_helper as lch
+import langchain_helper2 as lch
 import streamlit as st
 
 
 
 st.title("Pets name generator")
 
-animal_type = st.sidebar.selectbox("What is your pet?", ("Cat", "Dog", "Cow", "Hamster"))
+animal_type = st.sidebar.selectbox("What is your pet?", ("Cat", "Dog", "Cow", "Hamster", "Giraffe"))
 
 
 

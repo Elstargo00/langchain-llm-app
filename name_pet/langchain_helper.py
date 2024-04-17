@@ -6,7 +6,6 @@ from langchain.agents import load_tools
 from langchain.agents import initialize_agent
 from langchain.agents import AgentType
 
-load_dotenv()
 
 def generate_pet_name(animal_type, pet_color):
     llm = ChatOpenAI(temperature=0.8)
